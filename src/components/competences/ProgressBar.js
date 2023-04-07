@@ -3,7 +3,7 @@ import React from 'react';
 // récup des props depuis "Language.js"
 const ProgressBar = (props) => {
 
-    console.log(props);
+    // console.log(props);
 
     return (
         <div className={props.className}>

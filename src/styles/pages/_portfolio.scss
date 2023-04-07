@@ -250,12 +250,12 @@
         .projects {
             .project{
                 width: 98% !important;
-                grid-template-rows: 30px 30px 200px 30px!important;
+                height: 380px;
             }
             h3{
                 font-size: 18px;
-                margin: 10px 0;
             }
+          
             .infos{
                 font-size: 1.3rem;
             }

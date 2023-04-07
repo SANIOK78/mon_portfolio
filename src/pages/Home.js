@@ -12,7 +12,7 @@ const Home = () => {
                     <h2>Développeur Front-end</h2>
 
                     <div className="pdf">
-                        <a href="./images/cv.pdf" target="_blank"
+                        <a href={process.env.PUBLIC_URL + `/images/cv.pdf`} target="_blank"
                             rel="noopener noreferrer"
                         >
                             Télécharger CV

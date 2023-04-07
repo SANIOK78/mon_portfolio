@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 
 // recuperation de props 
 const Project = ( {element} ) => {
+    console.log(element)
     
     // recup chaque propriété via destructuring 
     const { name, languagesIcons, source, info, picture, site } = element;
