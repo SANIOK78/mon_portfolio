@@ -14,7 +14,9 @@ function App() {
        
     <Routes basename={process.env.PUBLIC_URL} >
 
-      <Route exact path='/' element={ <Home /> } />
+      <Route exact path='/' element={ <Home /> }>
+        <Route path='/mon_portfolio' element={ <Home />} />
+      </Route>
       <Route exact path='/about' element={ <About /> } />
       <Route path='/contact' element={ <Contact /> } />
       <Route path='/competences' element={ <Competences /> } />

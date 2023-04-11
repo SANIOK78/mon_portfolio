@@ -45,10 +45,10 @@ export const portfolioData = [
     name: 'Kasa',
     languages: ['react','css'],
     languagesIcons: ['fab fa-react', 'fab fa-css3-alt'],
-    source: 'https://github.com/SANIOK78/projet-kasa',
+    source: 'https://github.com/SANIOK78/kasa',
     info: "Application codé en ReactJs et CSS. Affichage des composants en récupérant les données depuis le fichier JSON. Utilisation des ‘props’ pour véhiculer les infos entre les composants. Gestion des routes avec React Router. Page « Erreur » personnalisé pour chaque route inexistante.",
     picture:  process.env.PUBLIC_URL + '/images/project5.jpg',
-    site: "https://saniok78.github.io/projet-kasa/"
+    site: "https://saniok78.github.io/kasa/"
   },
   {
     id: 6,

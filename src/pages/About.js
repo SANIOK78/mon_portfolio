@@ -26,13 +26,20 @@ const About = () => {
                     de voyageurs, ce que m'a permis d'acquérir de très bonnes compétences telles  
                     que gestion de stress, relation client, sens de service et responsabilité.
                 </p>
-                <p>
-                    J'ai profité de la période de confinement pour approfondir mes connaissances
-                    dans le domaine de développement web, domaine qui m'intéressait depuis 
+                <p>J'ai profité de la période de confinement pour définir mon projet de reconversion
+                    professionnel dans le domaine de développement web, qui m'intéressait depuis 
                     de nombreuses années.
                 </p>
-                <p>J'ai suivi des tutoriels sur YouTube, des cours sur la plateforme en line
-                    Udemy et ensuite le parcours « Développeur Web » chez OpenClassrooms.
+                <p>Pas à pas, j’ai commencé à approfondir mes connaissances en suivant des tutoriels sur
+                    <a href="https://www.youtube.com/results?search_query=d%C3%A9veloppement+frontend" 
+                        target="_blank" rel="noopener noreferrer" > YouTube, </a>   
+                    <a href="https://www.udemy.com/courses/search/?q=front+end&src=sac&kw=front"
+                    target="_blank" rel="noopener noreferrer">Udemy, </a> 
+                    <a href="https://www.ecole-du-web.net/" target="_blank" rel="noopener noreferrer">
+                    École du web </a> concernant différants langages de programmation
+                    et ensuite j'ai suivi le parcours <strong>"Développeur Web", </strong> plus structuré, chez {" "}
+                    <a href="https://openclassrooms.com/fr/" target="_blank" rel="noopener noreferrer">
+                    OpenClassrooms.</a> 
                 </p>
                 <hr />
                 <p>Conscient du chemin à parcourir pour monter en compétence, je continue 
@@ -40,8 +47,7 @@ const About = () => {
                 </p>
                 
                 <img src={ImgCompetence} alt="logo competences" />
-                
-                   
+                                   
             </div>
             
         </div>
